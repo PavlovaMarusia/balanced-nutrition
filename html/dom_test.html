@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-тест</title>
+    <!-- [if IE]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif] -->
+    <link rel="stylesheet" href="dom_test.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="logotip.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+        
+
+        <div class="header-brand">
+            
+
+            <a href="../index.html" class="logo-css" aria-label="На главную">
+
+                <div class="logo-css__leaves">
+                    <div class="logo-css__leaf left"></div>
+                    <div class="logo-css__leaf right"></div>
+                </div>
+
+                <div class="logo-css__heart">
+                    <div class="logo-css__heart-lobe left"></div>
+                    <div class="logo-css__heart-lobe right"></div>
+                    <div class="logo-css__fork">
+                        <div class="logo-css__fork-base"></div>
+                        <div class="logo-css__tine g1"></div>
+                        <div class="logo-css__tine g2"></div>
+                        <div class="logo-css__tine g3"></div>
+                    </div>
+                    <div class="logo-css__spoon">
+                        <div class="logo-css__spoon-highlight"></div>
+                    </div>
+
+                    <div class="text">Balanced<br>nutrition</div>
+                </div>
+            </a>
+
+
+            <div class="logo-css__text">
+                <span class="logo-css__title">Balanced nutrition</span>
+                <span class="logo-css__subtitle">питание со смыслом</span>
+            </div>
+            
+        </div>
+            
+
+            <nav>
+                <ul class="main-menu">
+
+                    <li><a href="../index.html" title="Главная">Главная</a></li>
+                    <li><a href="what.html" title="Что такое сбалансированное питание">Что это?</a></li>
+                    <li><a href="nutrients.html" title="Нутриенты">Нутриенты</a></li>
+                    <li><a href="plate.html" title="Гарвардская тарелка">Тарелка</a></li>
+                    <li><a href="seasons.html" title="Питание по сезонам">Сезоны</a></li>
+                    <li><a href="recipe.html" title="Рецепт">Рецепт</a></li>
+                    
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" tabindex="0">Задания ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="drawing.html">Рисунок CSS</a></li>
+                            <li><a href="animation.html">Flexbox-ролик</a></li>
+                            <li><a href="dom_test.html">DOM-тест</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-content">
+        <div class="header">
+        <h2>DOM-тест</h2>
+        <h3>Вариант-1</h3>
+        <a href="../index.html" class="glav">На главную</a>
+        </div>
+        <main>
+        <div id="stats"></div>
+        
+        <div id="end-message">Вопросы закончились!</div>
+        
+        <div id="quiz-container"></div>
+
+        </main>
+
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div class="footer-text">2026 Сбалансированное питание.</div>
+        </div>
+    </footer>
+</body>
+</html>
